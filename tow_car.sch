@@ -952,4 +952,6 @@ Wire Wire Line
 	7450 2900 7450 4250
 Text Notes 700  5000 0    50   ~ 0
 External 5V
+Text Notes 8700 3100 0    50   ~ 0
+J16:  Spare
 $EndSCHEMATC
