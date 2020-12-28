@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name tow_car)(type Legacy)(uri ${KIPRJMOD}/tow_car.lib)(options "")(descr ""))
+  (lib (name tow_car-rescue)(type Legacy)(uri ${KIPRJMOD}/tow_car-rescue.lib)(options "")(descr ""))
+)
