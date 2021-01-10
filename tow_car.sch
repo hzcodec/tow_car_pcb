@@ -544,9 +544,6 @@ F 3 "~" H 7500 5300 50  0001 C CNN
 $EndComp
 Text Notes 2300 6050 0    50   ~ 0
 5V
-Wire Wire Line
-	1650 5050 1650 4650
-Connection ~ 2250 5350
 $Comp
 L Connector_Generic:Conn_01x03 J15
 U 1 1 5FEF1A72
@@ -610,8 +607,6 @@ F 3 "~" H 1100 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1300 5050 1650 5050
-Wire Wire Line
 	7500 5100 7500 4850
 Wire Wire Line
 	7500 4850 7000 4850
@@ -674,8 +669,6 @@ Wire Wire Line
 	7900 1950 8050 1950
 Wire Wire Line
 	7900 1250 7900 1950
-Wire Wire Line
-	1300 5350 2250 5350
 Wire Wire Line
 	3900 4950 3900 3700
 Wire Wire Line
@@ -966,4 +959,19 @@ Text Notes 8450 2200 0    50   ~ 0
 3.3V
 Text Notes 8450 2400 0    50   ~ 0
 GND
+Wire Wire Line
+	1300 5050 1500 5050
+Wire Wire Line
+	1500 5050 1500 5200
+Wire Wire Line
+	1500 5200 1900 5200
+Wire Wire Line
+	1900 5200 1900 5350
+Wire Wire Line
+	1900 5350 2250 5350
+Connection ~ 2250 5350
+Wire Wire Line
+	1300 5350 1650 5350
+Wire Wire Line
+	1650 5350 1650 4650
 $EndSCHEMATC
